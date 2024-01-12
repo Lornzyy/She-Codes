@@ -1,7 +1,25 @@
-
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  background: rgb(202, 202, 35);
 }
+
+.main {
+  line-height: 2em;
+}
+
+.about-me {
+  font-size: 90px;
+  line-height: 2em;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px){
+  .primary-btn {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+
